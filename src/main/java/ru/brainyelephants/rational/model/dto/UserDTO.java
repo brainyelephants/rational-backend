@@ -8,8 +8,6 @@ public class UserDTO extends ReferenceEntityDTO {
 
     private String email;
 
-    private int passwordHash;
-
     public String getFirstName() {
         return firstName;
     }
@@ -32,13 +30,5 @@ public class UserDTO extends ReferenceEntityDTO {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public int getPasswordHash() {
-        return passwordHash;
-    }
-
-    public void setPasswordHash(int passwordHash) {
-        this.passwordHash = passwordHash;
     }
 }
